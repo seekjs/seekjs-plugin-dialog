@@ -1,0 +1,18 @@
+{
+  "name": "seekjs-plugin-dialog",
+  "version": "1.0.0",
+  "description": "this is a dialog plugin by seekjs",
+  "main": "index.sk",
+  "scripts": {
+    "test": "echo test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/seekjs-framework/seek-plugin-dialog.git"
+  },
+  "keywords": [
+    "seekjs", "plugin", "dialog", "alert"
+  ],
+  "author": "Li",
+  "license": "MIT"
+}
