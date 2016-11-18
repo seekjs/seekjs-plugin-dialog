@@ -214,8 +214,8 @@
         model = exports.model;
         model.onOk = ops.onOk || null;
         model.onCancel = ops.onCancel || null;
-        exports.show();
         exports.render();
+        exports.show();
 
         if(ops.timeout>0){
             exports.timer = window.setTimeout(exports.pickOk, ops.timeout);
