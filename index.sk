@@ -7,6 +7,7 @@
         padding: 0;
         margin: 0;
     }
+
     .sk-com-clear{
         clear: both;
     }
@@ -88,13 +89,18 @@
         border-bottom-left-radius: 0.7rem;
         box-shadow: 0 0 1px 0 #E5E8E8;
 
-
     }
     .sk-dialog-ture{
         text-align: center;
         display: inline-block;
         border-bottom-left-radius:0.7rem;
         width: 49%;
+    }
+
+    @media only screen and (min-width: 950px) {
+        .sk-dialog{
+            width: 450px;
+        }
     }
 </style>
 
