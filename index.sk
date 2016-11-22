@@ -142,13 +142,26 @@
 
 <script>
     var filter = require("sys.pipe");
+    exports.Lang = {
+        pt:{
+            title:"Nota",
+            okText:"Confirmar",
+            cancelText:"Cancelar"
+        },
+        cn:{
+            title:"提示",
+            okText:"确定",
+            cancelText:"取消"
+        }
+    };
+    exports.currentLang = exports.app.langType?exports.Lang[exports.app.langType] : exports.Lang.cn;
 
     var model = exports.model = {
-        title: "提示",
-        text: "内容",
+        title: exports.currentLang.title,
+        text: "",
         url: "",
-        okText: "确定",
-        cancelText: "取消",
+        okText: exports.currentLang.okText,
+        cancelText: exports.currentLang.cancelText,
         hasClose: false,
         hasOk: true,
         hasCancel : false,
