@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com/seekjs-framework/seek-plugin-dialog.git"
+    "url": "git@github.com/seekjs-framework/seekjs-plugin-dialog.git"
   },
   "keywords": [
     "seekjs",
