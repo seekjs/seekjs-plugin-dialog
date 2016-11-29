@@ -1,6 +1,7 @@
 //弹窗插件 add by Li at 2016-11-29
 
 var filter = require("sys.pipe");
+
 exports.Lang = {
     cn:{
         title:"提示",
@@ -18,20 +19,24 @@ exports.Lang = {
         cancelText:"Cancelar"
     }
 };
-exports.currentLang = localStorage.lang?exports.Lang[localStorage.lang] : exports.Lang.cn;
 
 var model = exports.model = {
-    title: exports.currentLang.title,
+    title: "",
     text: "",
     url: "",
-    okText: exports.currentLang.okText,
-    cancelText: exports.currentLang.cancelText,
+    okText: "",
+    cancelText: "",
     hasClose: false,
     hasOk: true,
     hasCancel : false,
     onOk: null,
     onCancel: null,
     onButton: null
+};
+
+exports.onRenderBefore = function() {
+    this.currentLang = localStorage.lang ? this.Lang[localStorage.lang] : this.Lang.cn;
+    Object.assign(model, this.currentLang);
 };
 
 exports.mediaStyle = true;
