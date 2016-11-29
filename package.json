@@ -19,5 +19,9 @@
     "插件"
   ],
   "author": "Li",
+  "contributors":[
+    "huyuqiong",
+    "qumin"
+  ],
   "license": "MIT"
 }
