@@ -1,6 +1,6 @@
 {
   "name": "seekjs-plugin-dialog",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "this is a dialog plugin by seekjs",
   "main": "dialog.js",
   "scripts": {
