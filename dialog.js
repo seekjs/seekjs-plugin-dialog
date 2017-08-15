@@ -14,7 +14,7 @@ exports.Lang = {
         cancelText:"Cancel"
     },
     pt:{
-        title:"Nota",
+        title:"Aviso",
         okText:"Confirmar",
         cancelText:"Cancelar"
     }
