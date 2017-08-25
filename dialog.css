@@ -54,7 +54,7 @@
         display: inline-block;
         width: 2rem;
         height: 2rem;
-        background: url("node_modules/seekjs-plugin-dialog/roundclose.png") no-repeat center;
+        background: url("node_modules/sk2-plugin-dialog/roundclose.png") no-repeat center;
         background-size: 1.8rem auto;
     }
     .sk-dialog-cont{
