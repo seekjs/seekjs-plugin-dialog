@@ -1,5 +1,5 @@
 {
-  "name": "seek2-plugin-dialog",
+  "name": "seekjs-plugin-dialog",
   "version": "2.0.0",
   "description": "this is a dialog plugin by seekjs",
   "main": "dialog.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com/seekjs/seek2-plugin-dialog.git"
+    "url": "git@github.com/seekjs/seekjs-plugin-dialog.git"
   },
   "keywords": [
     "seekjs",
